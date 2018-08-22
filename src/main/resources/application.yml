@@ -1,0 +1,8 @@
+server:
+  # Start on random available port
+  port: 0
+
+spring:
+  main:
+    # Disable Spring Boot banner
+    banner-mode: 'off'

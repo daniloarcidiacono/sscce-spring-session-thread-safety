@@ -1,0 +1,9 @@
+peak:
+  threads: 8
+  total-requests: 25
+
+  # Change to true in order to enable the SessionAuthenticationAspect.
+  #
+  # With force-sync: true, PeakTest always passes.
+  # With force-sync: false, PeakTest fails randomly (run the test many times, possibly in debug mode).
+  force-sync: false
